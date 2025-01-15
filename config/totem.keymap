@@ -86,18 +86,18 @@
 
             bindings = <
          &kp Q        &kp W       &kp E             &kp R       &kp T        &kp Y      &kp U       &kp O              &kp P            &kp SEMI
-         &mt LCTRL A  &mt LALT S  &mt LEFT_SHIFT D  &mt LCMD F  &kp G        &kp H      &mt RCMD J  &mt RIGHT_SHIFT E  &mt RIGHT_ALT L  &mt RIGHT_ALT O
-&kp ESC  &kp Z        &kp X       &kp C             &kp V       &kp B        &kp K      &kp M       &kp COMMA          &kp DOT          &kp FSLH         &kp BSLH
-                                  &kp DEL           &lt 3 TAB   &kp ENTER    &kp SPACE  &lt 1 ESC   &kp BSPC
+         &mt LCTRL A  &mt LALT S  &mt LEFT_SHIFT D  &mt LCMD F  &kp G        &kp H      &mt RCMD J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RCTRL SLASH
+&kp ESC  &kp Z        &kp X       &kp C             &kp V       &kp B        &kp N      &kp M       &kp COMMA          &kp DOT          &kp QUESTION     &mo 3
+                                  &kp DEL           &lt 2 TAB   &kp ENTER    &kp SPACE  &lt 1 ESC   &kp BSPC
             >;
         };
 
         sym_layer {
             bindings = <
-       &kp N1  &kp N2  &kp COMMA      &kp EQUAL  &kp LEFT_PARENTHESIS    &kp N6  &kp UNDERSCORE     &kp SEMICOLON     &kp N9    &kp RIGHT_PARENTHESIS
-       &kp Q   &kp R   &kp CARET      &kp PIPE   &kp LEFT_BRACKET        &kp O   &kp MINUS          &kp DOLLAR        &kp P     &kp RIGHT_BRACKET
-&kp K  &kp S   &kp H   &kp LESS_THAN  &kp SQT    &kp LEFT_BRACE          &kp T   &kp DOUBLE_QUOTES  &kp GREATER_THAN  &kp SEMI  &kp RIGHT_BRACE        &kp J
-                       &kp J          &kp H      &kp F                   &kp S   &kp K              &kp S
+             &kp TILDE    &kp EXCLAMATION  &kp COMMA      &kp EQUAL  &kp LEFT_PARENTHESIS    &kp PERIOD     &kp UNDERSCORE     &kp SEMICOLON     &kp QUESTION   &kp RIGHT_PARENTHESIS
+             &kp GRAVE    &kp PLUS         &kp CARET      &kp PIPE   &kp LEFT_BRACKET        &kp AMPERSAND  &kp MINUS          &kp DOLLAR        &kp ASTERISK   &kp RIGHT_BRACKET
+&kp AT_SIGN  &kp AT_SIGN  &kp HASH         &kp LESS_THAN  &kp SQT    &kp LEFT_BRACE          &kp PERCENT    &kp DOUBLE_QUOTES  &kp GREATER_THAN  &kp BACKSLASH  &kp RIGHT_BRACE        &kp ESCAPE
+                                           &kp TAB        &kp SLASH  &kp COLON               &trans         &trans             &trans
             >;
         };
 
